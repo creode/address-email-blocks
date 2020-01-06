@@ -1,0 +1,6 @@
+name: Address and Email blocks
+description: Adds blocks for address and email that use template / twig files.
+package: Creode
+
+type: module
+core: 8.x
