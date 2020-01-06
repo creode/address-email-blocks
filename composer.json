@@ -1,0 +1,12 @@
+{
+    "name": "creode/address_email_blocks",
+    "description": "Adds blocks for address and email that use template / twig files.",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "Creode",
+            "email": "creode@creode.co.uk"
+        }
+    ],
+    "require": {}
+}

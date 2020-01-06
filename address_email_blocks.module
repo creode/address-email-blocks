@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function address_email_blocks_theme($existing, $type, $theme, $path) {
+  return [
+    'address_email_blocks-address' => [],
+    'address_email_blocks-email' => [],
+    'address_email_blocks-telephone' => [],
+  ];
+}
