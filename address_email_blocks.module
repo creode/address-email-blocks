@@ -5,8 +5,17 @@
  */
 function address_email_blocks_theme($existing, $type, $theme, $path) {
   return [
-    'address_email_blocks-address' => [],
-    'address_email_blocks-email' => [],
-    'address_email_blocks-telephone' => [],
+    'address_email_blocks-address' => [
+      'variables' => array(),
+      'template' => 'address-email-blocks-address',
+    ],
+    'address_email_blocks-email' => [
+      'variables' => array(),
+      'template' => 'address-email-blocks-email',
+    ],
+    'address_email_blocks-telephone' => [
+      'variables' => array(),
+      'template' => 'address-email-blocks-telephone',
+    ],
   ];
 }
