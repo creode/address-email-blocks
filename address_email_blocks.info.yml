@@ -3,4 +3,4 @@ description: Adds blocks for address and email that use template / twig files.
 package: Creode
 
 type: module
-core: 8.x
+core_version_requirement: ^8 | ^9
